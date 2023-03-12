@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-dark: #555a54;
+  --color-light:#e1ddd2;
+  --color-background: #f7f2ef;
+  --section-padding: 2.5rem 5rem;
+  --section-margin: 2.5rem 0;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+
+/* @media only screen and (max-width: 900px) {
+  html{
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+} */
+
+body {
+  cursor: url("./images/cursor.png"), auto;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
